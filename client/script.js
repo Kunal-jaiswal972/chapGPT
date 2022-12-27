@@ -5,7 +5,7 @@ const form = document.querySelector("form");
 const chatContainer = document.querySelector("#chat_container");
 
 let loadInterval;
-const URL = "http://localhost:5000";
+const URL = "https://chapgpt.onrender.com";
 
 function loader(element) {
   element.textContent = "";
